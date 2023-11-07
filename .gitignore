@@ -1,0 +1,74 @@
+/build
+/captures
+.cxx
+
+/local.properties
+
+# User-specific configurations
+/.idea
+
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Generated files
+bin/
+gen/
+out/
+
+# Gradle files
+.gradle
+.gradle/
+build/
+
+# Signing files
+.signing/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Android Studio
+/*/build/
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+captures/
+.navigation/
+*.ipr
+*~
+*.swp
+
+# Keystore files
+*.jks
+*.keystore
+
+
+# Google Services (e.g. APIs or Firebase)
+# google-services.json
+
+# Android Patch
+gen-external-apklibs
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
+
+# NDK
+obj/
+
+# IntelliJ IDEA
+*.iml
+*.iws
+/out/
+
+# OS-specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+!/libs
