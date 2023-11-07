@@ -39,7 +39,7 @@ class ShopListAdapter : RecyclerView.Adapter<ShopListAdapter.ShopListViewHolder>
             holder.tvName.setTextColor(
                 ContextCompat.getColor(
                     holder.view.context,
-                    android.R.color.holo_red_light
+                    android.R.color.holo_green_light
                 )
             )
         }
