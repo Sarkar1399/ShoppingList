@@ -45,17 +45,6 @@ class ShopListAdapter : RecyclerView.Adapter<ShopListAdapter.ShopListViewHolder>
         }
     }
 
-    override fun onViewRecycled(holder: ShopListViewHolder) {
-        super.onViewRecycled(holder)
-        holder.tvName.text = ""
-        holder.tvCount.text = ""
-        holder.tvName.setTextColor(
-            ContextCompat.getColor(
-                holder.view.context,
-                android.R.color.white
-            )
-        )
-    }
 
     override fun getItemCount(): Int = shopList.size
 
